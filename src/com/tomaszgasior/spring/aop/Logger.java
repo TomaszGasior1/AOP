@@ -15,6 +15,7 @@ public class Logger {
 		
 	}
 	
+	
 	@Before("cameraSnap()")
 	public void aboutToTakePhoto(){
 		System.out.println("About to take photo...");
